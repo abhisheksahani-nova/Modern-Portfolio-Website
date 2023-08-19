@@ -1,9 +1,19 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./LandingPage.scss";
 
 function LandingPage() {
   return (
     <div className="landing-page-container">
+      <nav className="nav">
+        <a className="active-navlink">Work</a>
+
+        <a>About</a>
+        <a>Play</a>
+        <a>Notes</a>
+        <a>Contact</a>
+      </nav>
+
       <div className="banner-section">
         <div class="container">
           <div class="box">
@@ -67,7 +77,7 @@ function LandingPage() {
               <div className="description">
                 <div className="flip">
                   <div>
-                    <div className="field-1" >Web Developer</div>
+                    <div className="field-1">Web Developer</div>
                   </div>
                   <div>
                     <div className="field-2">Stand-up comedian</div>
