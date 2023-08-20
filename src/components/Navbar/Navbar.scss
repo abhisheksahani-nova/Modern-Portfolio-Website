@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 1.2rem;
+}
+
+.navLink {
+  color: hsla(171, 15%, 35%, 1);
+  text-decoration: none;
+  font-size: 17px;
+  box-sizing: border-box;
+}
+
+.active-navlink {
+  background-color: #f1f0e8;
+  padding: 0.6rem 1.3rem;
+  border-radius: 20px;
+}

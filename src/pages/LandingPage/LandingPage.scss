@@ -258,7 +258,7 @@ html {
 }
 
 .flip div:first-child {
-  animation: show 5s linear infinite;
+  animation: show 6s linear infinite;
 }
 
 .flip div div {
@@ -296,26 +296,4 @@ html {
   100% {
     margin-top: -270px;
   }
-}
-
-// Navbar style
-
-.nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 3rem;
-  padding: 1.2rem;
-}
-
-.nav:nth-child(n) {
-  color: hsla(171, 15%, 35%, 1);
-  font-size: 17px;
-  font-weight: 400;
-}
-
-.active-navlink {
-  background-color: #f1f0e8;
-  padding: 0.6rem 1.3rem;
-  border-radius: 20px;
 }

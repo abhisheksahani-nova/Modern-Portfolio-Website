@@ -1,24 +1,17 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./LandingPage.scss";
+import Navbar from "../../components/Navbar/Navbar";
 
 function LandingPage() {
   return (
     <div className="landing-page-container">
-      <nav className="nav">
-        <a className="active-navlink">Work</a>
-
-        <a>About</a>
-        <a>Play</a>
-        <a>Notes</a>
-        <a>Contact</a>
-      </nav>
+      <Navbar />
 
       <div className="banner-section">
-        <div class="container">
-          <div class="box">
-            <div class="title">
-              <span class="block"></span>
+        <div className="container">
+          <div className="box">
+            <div className="title">
+              <span className="block"></span>
 
               <div className="content-wrapper">
                 <div>
@@ -72,8 +65,8 @@ function LandingPage() {
               </div>
             </div>
 
-            <div class="role">
-              <div class="block"></div>
+            <div className="role">
+              <div className="block"></div>
               <div className="description">
                 <div className="flip">
                   <div>
